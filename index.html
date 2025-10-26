@@ -1,73 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- ===== HEADER ===== -->
-  <header>
-    <nav class="navbar">
-  <h1 class="logo">BRIAN</h1>
-  <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div class="menu-toggle" id="menu-toggle">
-    ☰
+  <div class="container">
+    <h1>Weather App</h1>
+    <input type="text" id="city" placeholder="Enter city name">
+    <button id="searchBtn">Get Weather</button>
+    <div id="weather-result"></div>
   </div>
-</nav>
-
-  </header>
-
-  <!-- ===== HERO SECTION ===== -->
-  <section id="home" class="hero">
-  <h2>Hi, I'm <span>BRIAN</span></h2>
-  <p>A Frontend Developer who loves turning ideas into interactive web experiences.</p>
-  <a href="#projects" class="btn">View My Work</a>
-</section>
-
-
-  <!-- ===== PROJECTS SECTION ===== -->
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Project One</h3>
-        <p>A brief description of what this project does.</p>
-        <a href="#">View Project</a>
-      </div>
-      <!-- Add more projects here -->
-    </div>
-  </section>
-
-  <!-- ===== SKILLS SECTION ===== -->
-  <section id="skills" class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <!-- Add more skills -->
-    </ul>
-  </section>
-
-  <!-- ===== CONTACT SECTION ===== -->
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Let's connect! You can reach me at:</p>
-    <a href="mailto:machariabrian644@gmail.com">machariabrian644@gmail.com</a>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer>
-    <p>© 2025 BRIAN. All rights reserved.</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>
